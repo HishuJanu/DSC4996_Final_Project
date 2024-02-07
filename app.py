@@ -52,7 +52,7 @@ st.markdown(f"""
   </style>""",unsafe_allow_html=True)
 
 _,col,_ = st.columns(3)
-col.image("/content/drive/MyDrive/4th_Year/DSC4996/janashakthi group (jxg).png", use_column_width='auto')
+col.image(file_prefix + "janashakthi group (jxg).png", use_column_width='auto')
 
 st.write("""<h1 style='text-align: center; font-size: 13mm; color: rgba(0,0,0,0.9);'>Automated Life Insurance Claim Process</h1>
 <p style='text-align: center; font-size: 6mm; color: rgba(0,0,0,0.7)'><b>Created by :- M.H.M. HISHAM <font size="3">( BSc. (Hons) in Data Science )</font></br>
