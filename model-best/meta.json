@@ -1,0 +1,124 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.2,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"a89eae928",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "transformer":[
+
+    ],
+    "ner":[
+      "ADDITIONAL ACCIDENT COVER",
+      "ADDITIONAL CRITICAL ILLNESS COVER",
+      "AMOUNT",
+      "BASIC COVER",
+      "CASHLESS HOSPITAL COVER",
+      "CRITICAL ILLNESS COVER",
+      "DATE",
+      "DOCTOR",
+      "FAMILY INCOME BENEFIT",
+      "FUNERAL EXPENSES",
+      "HOSPITAL",
+      "PERSONAL ACCIDENT COVER",
+      "POLICY_NO"
+    ]
+  },
+  "pipeline":[
+    "transformer",
+    "ner"
+  ],
+  "components":[
+    "transformer",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":1.0,
+    "ents_p":1.0,
+    "ents_r":1.0,
+    "ents_per_type":{
+      "POLICY_NO":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DATE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DOCTOR":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "HOSPITAL":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CASHLESS HOSPITAL COVER":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ADDITIONAL CRITICAL ILLNESS COVER":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "AMOUNT":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PERSONAL ACCIDENT COVER":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FAMILY INCOME BENEFIT":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CRITICAL ILLNESS COVER":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FUNERAL EXPENSES":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ADDITIONAL ACCIDENT COVER":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BASIC COVER":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      }
+    },
+    "transformer_loss":13.9375477962,
+    "ner_loss":10.1718820629
+  }
+}
