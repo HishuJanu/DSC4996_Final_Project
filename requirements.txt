@@ -1,8 +1,8 @@
-matplotlib==3.8.2
-numpy==1.26.0
-opencv_python==4.9.0.80
-pandas==2.2.0
+matplotlib==3.7.0
+numpy==1.23.2
+opencv_python==4.7.0.72
+pandas==1.5.2
 Pillow==10.2.0
 pytesseract==0.3.10
-spacy==3.7.3
-streamlit==1.31.0
+spacy==3.5.4
+streamlit==1.18.1
